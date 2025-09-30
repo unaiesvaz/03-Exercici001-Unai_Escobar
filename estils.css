@@ -9,3 +9,12 @@ p {
     color: red;
     text-decoration: bold;
 }
+.vermell {
+    color: red;
+}
+.gran {
+    font-size: 24px;
+}
+.negreta {
+    text-decoration: bold;
+}
