@@ -29,6 +29,7 @@ p {
 }
 a:hover {
     color: red;
+    cursor: pointer;
 }
 p::before {
     content: "👉 ";
