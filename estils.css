@@ -7,7 +7,7 @@ p {
 }
 .text-important {
     color: red;
-    text-decoration: bold;
+    font-weight: bold;
 }
 .vermell {
     color: red;
@@ -16,5 +16,18 @@ p {
     font-size: 24px;
 }
 .negreta {
-    text-decoration: bold;
+    font-weight: bold;
+}
+.subratllat {
+    text-decoration: underline;
+}
+a:hover {
+    color: red;
+}
+p::before {
+    content: "👉 ";
+}
+p::after {
+    content: " ✔";
+    color: green;
 }
